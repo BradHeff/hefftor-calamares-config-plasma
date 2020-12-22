@@ -41,10 +41,22 @@ Presentation
 
         Image {
             id: background1
-            source: "calamares-0.png"
-            width: 800; height: 350
+            source: "calamares-1.png"
+            width: 1000; height: 625
             fillMode: Image.PreserveAspectFit
 			      anchors.centerIn: parent
+        }
+
+    }
+
+    Slide {
+
+        Image {
+            id: background2
+            source: "calamares-2.png"
+            width: 1000; height: 625
+            fillMode: Image.PreserveAspectFit
+                  anchors.centerIn: parent
         }
 
     }
